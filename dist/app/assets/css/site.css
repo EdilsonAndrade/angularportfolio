@@ -1,0 +1,176 @@
+html {
+  height: 99%;
+}
+html > body {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100%;
+}
+div {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#portfolioHeader {
+  height: 100%;
+}
+h1 {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4 {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.img-background {
+  background: url("../images/myphoto.jpg");
+  height: 100%;
+  opacity: .3;
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+div#menuHeader {
+  position: relative;
+  z-index: 5;
+}
+label.me {
+  margin-top: 15%;
+  font-family: "Open Sans Condensed", "sans-serif";
+  text-transform: uppercase;
+  letter-spacing: 14px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 4rem;
+}
+label.me-small {
+  letter-spacing: 11px;
+  font-size: 1rem;
+}
+.glyphicon {
+  font-size: 20px;
+}
+div#barraHeader {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#barraHeader a:hover {
+  color: #0992bf;
+}
+div#barraHeader i {
+  font-size: 25px;
+}
+.btn-toolbar {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn-toolbar > span {
+  margin-left: 16px;
+}
+.btn-toolbar > span > a {
+  text-decoration: none;
+}
+.container {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container.whoAmI {
+  margin-top: 40px;
+}
+.notextdecoration :hover {
+  text-decoration: none;
+}
+.notextdecoration :focus {
+  text-decoration: none;
+}
+div > div > div > span > a.notextdecoration {
+  text-decoration: none;
+}
+div > div > div > span > a.notextdecoration :hover {
+  text-decoration: none;
+}
+div > div > div > span > a.notextdecoration :focus {
+  text-decoration: none;
+}
+div > div.navbar-fixed-top#navBar {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  background-color: #3a3f44;
+  opacity: 0.9;
+  font-weight: bold;
+}
+div.well.tab-pane {
+  background: transparent;
+  border: none;
+}
+div > ul.tabWhoAmI {
+  margin-top: 89px;
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.center-border {
+  width: 119px;
+  float: none;
+  margin: 0 auto;
+  height: 2px;
+  background: #761f86;
+  position: relative;
+  margin-bottom: 20px;
+}
+div.center-border:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: #0992bf;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+  top: -3px;
+}
+div ul {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div ul.transparent {
+  border: none;
+}
+div ul.transparent.nav-tabs > li {
+  font-family: 'Tahoma', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div ul.transparent.nav-tabs > li.active > a {
+  background: none;
+  border: none;
+}
+div ul.transparent.nav-tabs > li.active > a:focus {
+  background: none;
+  border: none;
+}
+div ul.transparent.nav-tabs > li.active > a:hover {
+  background: none;
+  border: none;
+}
+div ul.transparent.nav-tabs > li > a {
+  background: none;
+  border: none;
+}
+div.tab-home {
+  position: relative;
+  float: none;
+  margin: 0 auto;
+  width: 261px;
+}
+div.tab-home.descriptions {
+  width: 700px;
+  height: 300px;
+}
+div > h6.glyphicon-pencil {
+  font-size: 12pt;
+}

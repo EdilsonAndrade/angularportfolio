@@ -1,0 +1,49 @@
+{
+  "name": "edilsonportfolio",
+  "version": "1.0.1",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "@types/angular": "^1.6.17",
+    "@types/angular-resource": "^1.5.8",
+    "@types/googlemaps": "^3.26.14",
+    "angular": "1.6.4",
+    "angular-less": "^1.0.0",
+    "angular-resource": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "bootstrap": "3.3.7",
+    "google-maps": "^3.2.1",
+    "jquery": "^3.2.1",
+    "node": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "browser-sync": "^2.18.12",
+    "browserify": "^14.3.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-file": "^0.3.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-image": "^2.9.0",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-less": "^3.3.2",
+    "gulp-mocha": "^4.3.1",
+    "gulp-publish": "^0.8.7",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-tslint": "^8.0.0",
+    "gulp-typescript": "^3.1.6",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "http-server": "^0.10.0",
+    "less": "^2.7.2",
+    "path": "^0.12.7",
+    "run-sequence": "^1.2.2",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "wiredep": "^4.0.0"
+  }
+}
