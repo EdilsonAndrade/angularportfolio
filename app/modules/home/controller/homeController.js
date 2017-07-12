@@ -89,7 +89,6 @@ var app;
                     years: 1,
                 });
                 this.process = new Array();
-                
                 var desc1 = "Meet to acquire information about the project that will be useful for the next step. This information is gathered to ensure I achieve the client's goal.";
                 var desc3 = "Meeting with the client to show the backlog, schedule and discuss the employees that will be needed to achieve the deadline.";
                 var desc4 = "First sprint starts with the planning meeting. This will occur within 10 working days and we will decide the points/hour and the tasks that will be related for each history.";
@@ -114,7 +113,6 @@ var app;
                     id: 6,
                 });
                 this.about = "I have over 16 years of experience as a system analyst, working in development, customization and implementation using Visual Studio .Net. The platforms I've worked with are Web, Windows application and REST Services.";
-                
             }
             HomeController.prototype.avoidScrollingTab = function () {
                 $(".myTab").click(function (e) {
