@@ -121,15 +121,10 @@ module app.home {
                 },
             );
             this.process = new Array<app.models.Process>();
-            let desc1 = "Meeting to acquire many information about the project that will be use for the next step,";
-            desc1 += " to achieve the client´s goal.";
-            let desc3 = "Metting with the client to show the backlog, schedule ";
-            desc3 += "and the employess that will be needed to achieve the deadline.";
-
-            let desc4 = "First sprint starts with the planning meeting, with 10 working days ";
-            desc4 += "deciding the points / hour and the tasks that will be related for each history.";
-
-            let desc5 = "Show case made by the client assisted with the team.";
+            let desc1 = "Meet to acquire information about the project that will be useful for the next step. This information is gathered to ensure I achieve the client's goal.";
+            let desc3 = "Meeting with the client to show the backlog, schedule and discuss the employees that will be needed to achieve the deadline.";
+            let desc4 = "First sprint starts with the planning meeting. This will occur within 10 working days and we will decide the points/hour and the tasks that will be related for each history.";
+            let desc5 = "Showcase the material that was developed as a result of previous steps.";
 
             this.process.push(
                 {
@@ -138,7 +133,7 @@ module app.home {
 
                 },
                 {
-                    description: "Based in the first step and the technologic that will be used for the client, define the backlog.",
+                    description: "Following the first step, I will determine what technology will be used for the client. Additionally, I will define the backlog. ",
                     id: 2,
 
                 },
@@ -160,25 +155,24 @@ module app.home {
 
                 },
                 {
-                    description: "Restrospective with the team to say what went wrong and what went good, and decide how to improve",
+                    description: "Quality assurance meeting to discuss whether goals were met or how we can improve in the future.",
                     id: 6,
                 },
             );
 
-            this.about = "Over 16 years of experience as system analyst, working in development, ";
-            this.about += "customization and implementation using Visual Studio .Net for Web, Windows application and REST Services.";
+            this.about = "I have over 16 years of experience as a system analyst, working in development, customization and implementation using Visual Studio .Net. The platforms I've worked with are Web, Windows application and REST Services.";
 
 
         }
 
         private avoidScrollingTab(): void {
-            $(".myTab").click(function(e: JQueryEventObject) {
+            $(".myTab").click(function (e: JQueryEventObject) {
                 e.preventDefault();
             });
         }
 
         private fixBar(): void {
-            $(window).scroll(function() {
+            $(window).scroll(function () {
                 if (navigator.platform === "Win32") {
                     if ($(window).scrollTop() > 718) {
                         $("#navBar").addClass("navbar-fixed-top");
