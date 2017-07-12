@@ -126,6 +126,7 @@ module app.home {
             let desc4 = "First sprint starts with the planning meeting. This will occur within 10 working days and we will decide the points/hour and the tasks that will be related for each history.";
             let desc5 = "Showcase the material that was developed as a result of previous steps.";
 
+
             this.process.push(
                 {
                     description: desc1,

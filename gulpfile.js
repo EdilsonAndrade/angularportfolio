@@ -148,7 +148,8 @@ gulp.task("watch",  function () {
     });
     
     gulp.watch(["app/**/**.ts", "test/**/*.ts", config.less], ["default", "less"]);
-    gulp.watch("**/**.html").on('change', browserSync.reload);
+
+    gulp.watch(["**/**.html", "**/**.ts"]).on('change', browserSync.reload);
 });
 
 gulp.task("istanbul:hook", function () {
