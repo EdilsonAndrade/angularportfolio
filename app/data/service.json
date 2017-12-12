@@ -1,0 +1,17 @@
+[
+    {
+        "description": "Using Html5, Bootstrap, Less, CSS, Jquery, Typescript / JavaScript to achieve the results according to the prototype made respecting and using the Bootstrap´s rules",
+        "icon": "app/assets/images/website-development.png",
+        "title": "Web Development"
+    },
+    {
+        "description": "C# is the language used for developing the unique back-end services for serving many application that will have access and will be necessary to achieve the goals expected for each of them, the architecture used is the N tiers patterns, using IOC, Services / Business Layer / Entity / Repository",
+        "icon": "app/assets/images/back-end-developer.png",
+        "title": "Back-End Developer"
+    },
+    {
+        "description": "Working with the two aproaches above to build a system / service / web page / application",
+        "icon": "app/assets/images/full-stack-developer.png",
+        "title": "Full Stack Developer"
+    }
+]

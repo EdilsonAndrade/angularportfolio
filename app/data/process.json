@@ -1,0 +1,26 @@
+[
+    {
+        "description": "Meet to acquire information about the project that will be useful for the next step. This information is gathered to ensure I achieve the client's goal.",
+        "id": 1
+    },
+    {
+        "description": "Following the first step, I will determine what technology will be used for the client. Additionally, I will define the backlog. ",
+        "id": 2
+    },
+    {
+        "description": "Meeting with the client to show the backlog, schedule and discuss the employees that will be needed to achieve the deadline.",
+        "id": 3
+    },
+    {
+        "description": "First sprint starts with the planning meeting. This will occur within 10 working days and we will decide the points/hour and the tasks that will be related for each history.",
+        "id": 4
+    },
+    {
+        "description": "Showcase the material that was developed as a result of previous steps.",
+        "id": 5
+    },
+    {
+        "description": "Quality assurance meeting to discuss whether goals were met or how we can improve in the future.",
+        "id": 6
+    }
+]
